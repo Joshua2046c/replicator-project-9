@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "replicator-world-z-up",
+  "targets": [
+    {
+      "id": "front",
+      "label": "front",
+      "cells": [
+        {
+          "id": "front",
+          "target": "front",
+          "order": 0,
+          "path": "design/card_holder/source/parts/front/000-front.py",
+          "sha256": "809a56eee740d52aca67725689830bb6c348a3de5056f4cc7c2cd5ce2293d00e"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rear",
+      "label": "rear",
+      "cells": [
+        {
+          "id": "rear",
+          "target": "rear",
+          "order": 0,
+          "path": "design/card_holder/source/parts/rear/000-rear.py",
+          "sha256": "efd4b8f8736ac385e43462966006eefab7a5a1594e78615198a314f0b45798e5"
+        }
+      ],
+      "dependencies": [
+        "front"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "front_panel",
+      "target": "front",
+      "label": "底盖 · 沉台与推卡孔",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "1e2118e59f73a811825b50186bb3925b7afac9fac2028a4f3107046f8485cd7c",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          90
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rear_panel",
+      "target": "rear",
+      "label": "前盖 · 一体浮雕",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "7eb715510ba8980c9122a0d9a3a94afb8609831b55bcfd9c8e950d1fce466f9a",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          90
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [],
+  "updatedAt": "2026-10-21T17:56:22.186Z",
+  "parameters": {
+    "front": {
+      "card_width": 65,
+      "card_height": 100,
+      "card_thickness": 1,
+      "card_side_clearance": 0.3,
+      "card_depth_clearance": 0.4,
+      "bond_rim_width": 2.4,
+      "outer_corner_radius": 2,
+      "front_thickness": 1.6,
+      "front_top_extension": 15,
+      "front_lanyard_width": 18,
+      "front_lanyard_height": 5,
+      "front_lanyard_center_x": 0,
+      "front_locating_wall": 1.6,
+      "front_lid_recess_depth": 1.6,
+      "front_lid_side_clearance": 0.07,
+      "front_thumb_width": 18,
+      "front_thumb_height": 32,
+      "front_thumb_center_x": 0,
+      "front_thumb_center_y": 5.5
+    },
+    "rear": {
+      "rear_floor_thickness": 1.6,
+      "front_relief_width": 88,
+      "front_relief_height": 1.5,
+      "front_relief_center_x": 0,
+      "front_relief_center_y": -1.165,
+      "front_relief_embed": 0.02,
+      "front_logo_groove_width": 0.3,
+      "front_logo_groove_depth": 0.6
+    }
+  }
+}

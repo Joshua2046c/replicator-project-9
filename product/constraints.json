@@ -1,0 +1,67 @@
+{
+  "units": "mm",
+  "design_id": "card_holder",
+  "envelope": {
+    "width": 73.6,
+    "height": 119.6,
+    "thickness": 4.6
+  },
+  "card": {
+    "width": 65,
+    "height": 100,
+    "thickness": 1
+  },
+  "cavity": {
+    "width": 65.6,
+    "height": 100.6,
+    "depth": 1.4
+  },
+  "bond": {
+    "rim_width": 2.4,
+    "reservoir": false,
+    "nominal_gap": 0
+  },
+  "electrical": "not applicable",
+  "lid_seat": {
+    "depth": 1.6,
+    "pocket_width": 70.4,
+    "lid_width": 70.26,
+    "lid_height": 102.93,
+    "peripheral_clearance": 0.07,
+    "locating_wall": 1.6
+  },
+  "feature_ownership": "card slot, recessed lid seat, lanyard hole and rear thumb slot all belong to the marked base (legacy target front)",
+  "thumb_slot": {
+    "width": 18,
+    "height": 32,
+    "center_y": 5.5,
+    "reference": "overall base outline"
+  },
+  "lanyard_hole": {
+    "width": 18,
+    "height": 5,
+    "width_source": "default estimate from image 4"
+  },
+  "envelope_with_relief": {
+    "landscape_width": 119.6,
+    "landscape_height": 73.6,
+    "thickness": 6.1
+  },
+  "relief": {
+    "height": 1.5,
+    "overall_width": 88,
+    "location": "outside of front lid",
+    "orientation": "horizontal reading, lanyard at left",
+    "font_outline": "direct line/cubic-Bezier tracing of new clean user image; uniform scale, original shapes and spacing",
+    "logo_corners_radius": 0,
+    "logo_groove_width": 0.3,
+    "logo_groove_depth": 0.6,
+    "logo_groove_side": "rear overlap only; foreground intact",
+    "font_reference": "product/references/uploads/20261021T172928199Z-1-image.png",
+    "word_width": 57.9870368,
+    "word_height": 9.60832690457477,
+    "max_trace_deviation": 0.016567722648345853,
+    "unified_with_front_lid": true,
+    "published_object": "rear_panel"
+  }
+}

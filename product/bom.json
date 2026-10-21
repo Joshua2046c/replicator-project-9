@@ -1,0 +1,56 @@
+{
+  "requirements_digest": "de117fd983c428f962878e61846cce6a354dfbe38e9761d1366d6d0e782decff",
+  "bom_ready": true,
+  "items": [
+    {
+      "id": "front",
+      "name": "卡套底盖（平整胶合台阶、居中拇指孔，73.6 × 119.6 × 4.6 mm）",
+      "quantity": 1,
+      "category": "printed_part",
+      "material": "PLA",
+      "design_id": "card_holder",
+      "part_id": "front",
+      "selection_reason": "沉台深1.6 mm、宽70.4 mm；取消U形储胶槽并填平；18 × 32 mm拇指孔按底盖全高居中；按标注比例加宽为18 × 5 mm挂绳孔；卡槽100.6 × 65.6 × 1.4 mm。 阅读图案时整体横置、挂绳端朝左。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "rear",
+      "name": "卡套前盖（卡面与XonarLabs浮雕融合为单一实体，局部总厚3.1 mm）",
+      "quantity": 1,
+      "category": "printed_part",
+      "material": "PLA",
+      "design_id": "card_holder",
+      "part_id": "rear",
+      "selection_reason": "前盖底板70.26 × 102.93 × 1.6 mm、配合每侧0.07 mm；88 mm宽、1.5 mm高黑色图文。文字严格直接描取用户新图，保持字形、笔画、孔洞及原始相对字距，整行等比例缩放，文字宽约57.987 mm、高约9.608 mm；三个尖角黑块的0.3 mm宽、0.6 mm深凹槽仅作用于后层，前层完整。 卡面、文字和图标已布尔融合为一个有效实体，单件制造；凸起部分可后涂黑。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "adhesive",
+      "name": "用户自备、与所选打印材料相容的胶黏剂",
+      "quantity": 1,
+      "unit": "assembly dose",
+      "category": "consumable",
+      "selection_reason": "在平整U形胶合台阶上薄涂；取消储胶槽；先验证与打印材料相容性，避免溢入卡腔。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "lanyard",
+      "name": "用户自备挂绳（穿过18 × 5 mm胶囊孔）",
+      "quantity": 1,
+      "category": "accessory",
+      "selection_reason": "孔宽按用户黄色框比例取18 mm、孔高5 mm，绳头须可穿入。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "black_finish",
+      "name": "黑色涂装材料（前盖一体浮雕表面用）",
+      "quantity": 1,
+      "unit": "finish dose",
+      "category": "consumable",
+      "selection_reason": "前盖与浮雕为单一实体，凸起1.5 mm；打印后对凸起文字和图标涂黑，后层分割凹槽宽0.3 mm、深0.6 mm。",
+      "part_identity": "709e80c88487a241"
+    }
+  ],
+  "schema_version": 1,
+  "status": "ready"
+}

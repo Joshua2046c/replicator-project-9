@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "manufacturing_package",
+  "summary": "Two-piece landscape adhesive card holder, lanyard left, with black 1.5 mm raised XonarLabs logo and lettering on front lid.",
+  "required_interfaces": [
+    {
+      "id": "card_fit",
+      "kind": "internal_fit",
+      "description": "Retain 100 x 65 x 1 mm card in a 100.6 x 65.6 x 1.4 mm top-open cavity.",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "bond_joint",
+      "kind": "assembly_joint",
+      "description": "Front lid with square top corners nests into 1.6 mm deep base seat, 0.07 mm per-side clearance; U-shaped adhesive ledge is flat with no glue reservoir.",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "lanyard_hole",
+      "kind": "opening",
+      "description": "Horizontal capsule through base top extension; 5 mm height retained, width widened to 18 mm by estimate from user image 4.",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "thumb_access",
+      "kind": "opening",
+      "description": "18 x 32 mm capsule through-slot in bottom cover; vertically centered on complete bottom-cover outline.",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "brand_relief",
+      "kind": "surface_feature",
+      "description": "XonarLabs lettering directly traced from font_image_new, preserving original glyph shapes, stroke proportions, holes and relative spacing, uniformly scaled; black relief1.5 mm high. Existing three sharp-edged bars retain0.3 mm-wide,0.6 mm-deep rear-only grooves, foreground intact. Total artwork width88 mm; lanyard left. Relief and front lid base must be boolean-unioned into one valid solid.",
+      "source": "user_requested",
+      "required": true
+    }
+  ],
+  "external_references": [
+    {
+      "id": "brand_photo",
+      "source": "user_requested",
+      "description": "Original brand photograph for logo and overall layout; lettering is superseded by font_image_new.",
+      "path": "product/references/uploads/20261021T164618111Z-1-20261021193615-386-20.jpg"
+    },
+    {
+      "id": "brand_detail",
+      "source": "user_requested",
+      "description": "Close-up showing the three overlapping sharp-corner black logo blocks.",
+      "path": "product/references/uploads/20261021T170442234Z-2-image.png"
+    },
+    {
+      "id": "font_image_new",
+      "source": "user_requested",
+      "description": "Sole lettering reference: user supplied clean black-on-white XonarLabs wordmark. Trace shapes and spacing directly.",
+      "path": "product/references/uploads/20261021T172928199Z-1-image.png"
+    }
+  ],
+  "assembly_story": {
+    "installation": "Print bottom cover and unified front cover separately. Front cover is one solid including the 1.5 mm raised artwork; apply black finish to raised letters and logo. Dry-fit and adhesive-bond front cover into base. Lanyard points left in reading orientation.",
+    "maintenance": "Insert/remove card at lanyard end (left when artwork is horizontal); push via centered rear thumb slot. Adhesive joint is permanent.",
+    "user_access": [
+      "top card insertion mouth",
+      "bottom-cover rear thumb through-slot",
+      "bottom-cover lanyard hole"
+    ]
+  },
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "card_holder",
+        "design_id": "card_holder",
+        "description": "Two printable halves in assembled position.",
+        "delivery_target": "manufacturing_handoff",
+        "required_formats": [
+          "step"
+        ],
+        "interface_ids": [
+          "card_fit",
+          "bond_joint",
+          "lanyard_hole",
+          "thumb_access",
+          "brand_relief"
+        ],
+        "reference_ids": [
+          "brand_photo",
+          "brand_detail",
+          "font_image_new"
+        ]
+      }
+    ]
+  },
+  "open_questions": []
+}

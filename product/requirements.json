@@ -1,0 +1,206 @@
+{
+  "requirements": {
+    "product_class": {
+      "value": "mechanical",
+      "source": "default"
+    },
+    "card_size_mm": {
+      "value": {
+        "length": 100,
+        "width": 65,
+        "thickness": 1
+      },
+      "source": "user"
+    },
+    "construction": {
+      "value": "two adhesive-bonded pieces; front lid nests into recessed seat in marked lanyard-bearing bottom cover",
+      "source": "user"
+    },
+    "outer_corner_radius_mm": {
+      "value": {
+        "base": 2,
+        "lid_bottom": 2,
+        "lid_top": 0
+      },
+      "source": "user"
+    },
+    "lanyard_hole": {
+      "value": {
+        "shape": "horizontal capsule",
+        "height_mm": 5,
+        "location": "top extension of marked bottom cover only",
+        "width_target": "widen to yellow highlighted span in image 4"
+      },
+      "source": "user"
+    },
+    "back_thumb_slot": {
+      "value": {
+        "shape": "capsule",
+        "location": "through bottom cover, vertically centered",
+        "purpose": "push card out with thumb"
+      },
+      "source": "user"
+    },
+    "orientation": {
+      "value": "landscape viewing, lanyard end on the left; artwork reads horizontally from left to right",
+      "source": "user"
+    },
+    "cavity_mm": {
+      "value": {
+        "height": 100.6,
+        "width": 65.6,
+        "depth": 1.4
+      },
+      "source": "default"
+    },
+    "plate_thickness_mm": {
+      "value": 1.6,
+      "source": "default"
+    },
+    "bond_rim_width_mm": {
+      "value": 2.4,
+      "source": "default"
+    },
+    "front_extension_height_mm": {
+      "value": 15,
+      "source": "default"
+    },
+    "back_thumb_slot_mm": {
+      "value": {
+        "width": 18,
+        "height": 32,
+        "center_from_card_center_y": 5.5,
+        "through": true
+      },
+      "source": "default"
+    },
+    "manufacturing_method": {
+      "value": "fdm",
+      "source": "default"
+    },
+    "material": {
+      "value": "PLA, adhesive compatibility to be checked on scrap",
+      "source": "default"
+    },
+    "base_board": {
+      "value": "not applicable; purely mechanical card holder",
+      "source": "default"
+    },
+    "lid_recess": {
+      "value": "marked lanyard-bearing bottom cover has a recessed seat matching the front lid; thumb cutout is in this same bottom cover",
+      "source": "user"
+    },
+    "lid_recess_mm": {
+      "value": {
+        "depth": 1.6,
+        "side_clearance": 0.07,
+        "outer_locating_wall": 1.6,
+        "pocket_width": 70.4,
+        "lid_width": 70.26,
+        "lid_height": 102.93
+      },
+      "source": "default"
+    },
+    "lanyard_hole_width_mm": {
+      "value": 18,
+      "source": "default"
+    },
+    "thumb_center_reference": {
+      "value": "overall bottom cover height, including lanyard extension",
+      "source": "default"
+    },
+    "glue_reservoir": {
+      "value": "removed and raised to continuous coplanar U-shaped adhesive land",
+      "source": "user"
+    },
+    "fit_clearance_mm": {
+      "value": 0.07,
+      "source": "user"
+    },
+    "fit_clearance_application": {
+      "value": "per side between front lid and recessed base seat; card-cavity clearances unchanged",
+      "source": "default"
+    },
+    "front_relief": {
+      "value": {
+        "text": "XonarLabs",
+        "graphic": "three-stripe logo from close-up reference; XonarLabs lettering strictly from new clean image",
+        "color": "black",
+        "height_mm": 1.5,
+        "surface": "outside of front lid"
+      },
+      "source": "user"
+    },
+    "front_relief_layout": {
+      "value": {
+        "overall_width_mm": 88,
+        "center": "front lid face center",
+        "method": "uniformly scaled direct tracing of complete new-image wordmark, preserving original glyph shapes and relative spacing; unchanged straight-edged logo with rear-only seams"
+      },
+      "source": "default"
+    },
+    "front_lid_color": {
+      "value": "light gray to contrast with black relief",
+      "source": "default"
+    },
+    "front_relief_quality": {
+      "value": "all letters have clean smooth outlines without raster burrs, spikes, slivers or unintended joins",
+      "source": "user"
+    },
+    "logo_block_shape": {
+      "value": {
+        "blocks": 3,
+        "outline": "straight-edged overlapping parallelograms matching close-up reference",
+        "corner_radius_mm": 0
+      },
+      "source": "user"
+    },
+    "logo_separation": {
+      "value": {
+        "grooves": 2,
+        "width_target": "narrower than previous 0.6 mm",
+        "application": "recess on rear overlap blocks only; keep foreground bar intact"
+      },
+      "source": "user"
+    },
+    "logo_separation_depth_mm": {
+      "value": 0.6,
+      "source": "default"
+    },
+    "font_reconstruction": {
+      "value": "direct subpixel silhouette tracing of the new image; fitted line and cubic Bezier contours; preserve original proportions, holes and kerning without font substitution or individual glyph redesign",
+      "source": "default"
+    },
+    "front_glyph_corrections": {
+      "value": {
+        "whole_word": "all glyph shapes, stroke proportions and spacing follow the new clean XonarLabs image"
+      },
+      "source": "user"
+    },
+    "logo_separation_width_mm": {
+      "value": 0.3,
+      "source": "default"
+    },
+    "font_reference": {
+      "value": {
+        "path": "product/references/uploads/20261021T172928199Z-1-image.png",
+        "sha256": "c9bddc476828228087426b5c10d5c46dcc30869eea7c9a83a64d4c5984b9fc4a",
+        "instruction": "strictly follow this new image for every glyph and original relative spacing"
+      },
+      "source": "user"
+    },
+    "font_trace_tolerance_mm": {
+      "value": {
+        "max_contour_deviation": 0.016567722648345853,
+        "word_width": 57.9870368,
+        "word_height": 9.60832690457477
+      },
+      "source": "default"
+    },
+    "front_cover_construction": {
+      "value": "front lid base, raised lettering and logo boolean-unioned and delivered as one valid solid, not separate relief bodies",
+      "source": "user"
+    }
+  },
+  "open_questions": []
+}

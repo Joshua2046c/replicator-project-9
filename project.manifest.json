@@ -1,0 +1,13 @@
+{
+  "formatVersion": 4,
+  "name": "卡套",
+  "title": "卡套",
+  "summary": "中国深圳某著名科技公司的专属卡套，能够容纳 100x65mm，厚度 1mm 的门禁卡，卡套采用胶粘的方式上下固定，预留了一些旷量，可通过在门禁卡上缠绕胶带的方式调整适合的松紧度",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Miles"
+    }
+  ],
+  "artifacts": "rebuild"
+}

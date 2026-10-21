@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "file": "uploads/20261021T162448869Z-1-mark-1.png",
+      "sha256": "eacaac0f3f04d6325621292a048cd45552e1a73d09dd1658a665ade340eb4ee6",
+      "bytes": 46218,
+      "addedAt": "2026-10-21T16:24:49.082Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T163300056Z-1-mark-1.png",
+      "sha256": "f0944e85538eba18409c8ee1e5aca9875bbb68920700c3571f29cd1937451e61",
+      "bytes": 168990,
+      "addedAt": "2026-10-21T16:33:01.177Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T163300056Z-2-mark-2.png",
+      "sha256": "9f43cb8fb50f97db3e4a548543962922afc8deb954f359f53d8182253e833632",
+      "bytes": 182333,
+      "addedAt": "2026-10-21T16:33:01.186Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T163300056Z-3-mark-3.png",
+      "sha256": "3d598cb8422f7586f73c2704e0eb22e6d1250a3d799b60da045fb792425dd0df",
+      "bytes": 42235,
+      "addedAt": "2026-10-21T16:33:01.194Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T163300056Z-4-mark-4.png",
+      "sha256": "748220cc68c43a1ebd18335cd4f3a9bfe785e8896df888d2896a584a729961b4",
+      "bytes": 62020,
+      "addedAt": "2026-10-21T16:33:01.196Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T164618111Z-1-20261021193615-386-20.jpg",
+      "sha256": "76aa1124502890c563f16130ed053ce41e58c7056407a8b98ac29c87115f7de2",
+      "bytes": 4311351,
+      "addedAt": "2026-10-21T16:46:23.510Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T170442234Z-1-mark-1.png",
+      "sha256": "cd6f9978254995f83604c6fb52cad3bc61d716ee1d55fe9d45a865321eec88a3",
+      "bytes": 79435,
+      "addedAt": "2026-10-21T17:04:51.123Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T170442234Z-2-image.png",
+      "sha256": "df2228742148513f267230fe4edc5f1048dd6c053170f77ab5146747ef90661f",
+      "bytes": 302341,
+      "addedAt": "2026-10-21T17:04:51.124Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T171626859Z-1-mark-1.png",
+      "sha256": "eb6ef3c12e3ae0eb005017dfb6c84eb8cf5a2f4e63b2ae9a70f63da754271594",
+      "bytes": 93648,
+      "addedAt": "2026-10-21T17:16:28.103Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T171626859Z-2-mark-2.png",
+      "sha256": "70822c98be19000c29b97f3acd4a5a75f877a9b13da76c6ba3a8d90f6f967251",
+      "bytes": 107026,
+      "addedAt": "2026-10-21T17:16:28.105Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T171626859Z-3-mark-3.png",
+      "sha256": "06ef0ffb664d8fb7e9cc454acf68f4c6e2a43b19d41bece1b7b254823e40624b",
+      "bytes": 72562,
+      "addedAt": "2026-10-21T17:16:28.106Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T171626859Z-4-mark-4.png",
+      "sha256": "f3c4652e8daea4b75662ef0437089f04cbe900f8440089fabb0d0b8a0497e4e1",
+      "bytes": 69134,
+      "addedAt": "2026-10-21T17:16:28.108Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261021T172928199Z-1-image.png",
+      "sha256": "c9bddc476828228087426b5c10d5c46dcc30869eea7c9a83a64d4c5984b9fc4a",
+      "bytes": 979494,
+      "addedAt": "2026-10-21T17:29:33.556Z",
+      "share": false
+    },
+    {
+      "file": "xonar-logo-clean.json",
+      "sha256": "19fccddd4c8cfe98402d510183f0e1e14a2c936cf844a6e2202ef6b90845e49d",
+      "bytes": 19745,
+      "addedAt": "2026-10-21T17:13:17.689Z",
+      "share": false
+    },
+    {
+      "file": "xonar-logo-reference-fit.json",
+      "sha256": "a5a694e4b48bcc4bb68835f65ddbb2dfc5eee2a9353c0a1ff0dfce9d56f5e73c",
+      "bytes": 12351,
+      "addedAt": "2026-10-21T17:22:07.666Z",
+      "share": false
+    },
+    {
+      "file": "xonar-logo-trace.json",
+      "sha256": "ba91062ce71194b1ddd6205cb1bcfc698bae922daef59a6e6f06fc909a3e9604",
+      "bytes": 10139,
+      "addedAt": "2026-10-21T16:50:36.875Z",
+      "share": false
+    },
+    {
+      "file": "xonar-logo-trace.svg",
+      "sha256": "5e86901d2d6dde70d9eca2484f3616316460cf8799aee617a8e4e916dc4e5b92",
+      "bytes": 8884,
+      "addedAt": "2026-10-21T16:50:36.875Z",
+      "share": false
+    },
+    {
+      "file": "xonar-wordmark-new-image.json",
+      "sha256": "10fa81b35554e3959e15ea016aae389256464ffba7af06ee4f7cf70bcd2d189f",
+      "bytes": 108492,
+      "addedAt": "2026-10-21T17:39:52.329Z",
+      "share": false
+    }
+  ]
+}
