@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "units": "mm",
-  "coordinateFrame": "replicator-world-z-up",
+  "coordinateFrame": "makit-world-z-up",
   "targets": [
     {
       "id": "front",
@@ -41,7 +41,7 @@
       "label": "底盖 · 沉台与推卡孔",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "1e2118e59f73a811825b50186bb3925b7afac9fac2028a4f3107046f8485cd7c",
+      "shapeHash": "f00932d2894132602e366c5ffb75677a799849a127cbb093f2b911df28e31175",
       "transform": {
         "positionMm": [
           0,
@@ -68,7 +68,7 @@
       "label": "前盖 · 一体浮雕",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "7eb715510ba8980c9122a0d9a3a94afb8609831b55bcfd9c8e950d1fce466f9a",
+      "shapeHash": "aa7d8285910f082c68aa8a0142864a97afba5815776cd058c5f75e22880a974a",
       "transform": {
         "positionMm": [
           0,
@@ -92,7 +92,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-10-21T17:56:22.186Z",
+  "updatedAt": "2026-11-07T14:58:01.745Z",
   "parameters": {
     "front": {
       "card_width": 65,
